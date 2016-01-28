@@ -1,6 +1,6 @@
 <?php
 
-$name = "Anthony"
+$name = "Anthony";
 echo '<p>Hello there, ', $name, '</p>';
 
 ?>
