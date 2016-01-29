@@ -1,14 +1,14 @@
 .DS_Store
 
 
-week2/wordpress/*
-!week2/wordpress/wp-content/
+wordpress/*
+!wordpress/wp-content/
 
-week2/wordpress/wp-content/*
-!week2/wordpress/wp-content/themes/
+wordpress/wp-content/*
+!wordpress/wp-content/themes/
 
-week2/wordpress/wp-content/themes/*
-!week2/wordpress/wp-content/themes/week2
+wordpress/wp-content/themes/*
+!wordpress/wp-content/themes/week2
 
 
 
