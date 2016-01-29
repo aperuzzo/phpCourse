@@ -88,8 +88,8 @@
                         <li>Fuel Injection</li>
                         <li>Axle/ CV joints</li>
                         <li>Oil Change</li>
-                    </ul>
-                </div> -->
+                    </ul> -->
+                </div> 
                 
             </section>
             <section id="maintenance" class="blue">
