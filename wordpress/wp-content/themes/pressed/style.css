@@ -1,0 +1,127 @@
+/*
+Theme Name: Pressed
+Author: Mark Llobrera
+Description: A custom (sidebar) theme for Pressed and Squeezed
+Version: 1.0
+*/
+* {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+  font-family: josefin-slab, serif;
+  font-weight: 400;
+  font-size: 3em;
+  text-align: center;
+}
+
+nav {
+	position: relative;
+	text-align: center;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 2em;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin: 0;
+	display: inline;
+/*	float: left;*/
+	padding-left: 1em;
+	padding-right: 2em;
+}
+
+body {
+	font-family: merriweather, serif;
+	font-weight: 400;
+	max-width: 75em;
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#primary {
+	width: 80%;
+	float: left;
+}
+
+#secondary {
+	width: 20%;
+	float: left;
+	padding-left: 2em;
+}
+
+.entry-content > p {
+	width: 60%;
+	max-width: 27.8125em;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.5em;
+}
+
+section > section h1 {
+	font-size: 2em;
+}
+
+footer {
+	font-size: .8em;
+	border-top: 1px dotted #ccc;
+	margin-top: 2em;
+	padding-top: 2em;
+	padding-bottom: 5em;
+}
+
+footer h1 {
+	font-family: merriweather, serif;
+	font-weight: 700;
+	font-size: 1em;
+	text-align: left;
+}
+
+footer p {
+	line-height: .5;
+}
+
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
