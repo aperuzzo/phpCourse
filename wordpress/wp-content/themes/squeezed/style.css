@@ -278,12 +278,7 @@ textarea {
 	line-height: 1.5;
 }
 
-.site-title {
-	font-family: josefin-slab, serif;
-	font-weight: 400;
-	font-size: 3em;
-	text-align: center;
-}
+
 
 h1,
 h2,
@@ -292,6 +287,13 @@ h4,
 h5,
 h6 {
 	clear: both;
+}
+
+h1 {
+	font-family: josefin-slab, serif;
+	font-weight: 400;
+	font-size: 3em;
+	text-align: center;
 }
 
 p {
@@ -821,6 +823,14 @@ a:active {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.entry-content > p {
+	width: 60%;
+	max-width: 27.8125em;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.5em;
 }
 
 /*--------------------------------------------------------------

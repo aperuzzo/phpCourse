@@ -6,7 +6,7 @@
       	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <article>
           <div class="entry-content">
-            <img src="<?php echo bloginfo('url'); ?>/wp-content/themes/pressed/images/hero.jpg" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/hero.jpg" />
     		<a href="<?php the_permalink();?>"><h1><?php the_title(); ?></h1></a>
     		<?php the_content(); ?>
             <!-- <p>Pressed and Squeezed is a full-service WordPress shop. We create custom themes and CMSes for our clients.</p>
